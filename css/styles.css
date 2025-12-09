@@ -13,6 +13,7 @@ body{
     color: #DDCFBF;
     padding: 5px 0;
     margin-bottom: 20px ;
+    border-bottom: solid white 5px 
 }
 .contenedor-cabecera{
     max-width: 1200px;
@@ -25,10 +26,27 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
-    height: 40;
+    height: 100px;
 }
 .logo img{
-    height: 125px;
+    height: 100px;
     display: block;
 }
-
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.lista-menu{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.lista-menu li a{
+    color: #DDCFBF;
+    text-decoration: none;
+    font-size: 16px;
+}
+.lista-menu li a:hover{
+    color: white;
+}

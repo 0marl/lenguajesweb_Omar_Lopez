@@ -208,7 +208,7 @@ input:focus, textarea:focus{
   color: #DDCFBF;
   padding: 18px 0;
   margin-top: 20px;
-  border-top: 5px solid #634532;
+  border-top: 5px solid white;
 }
 
 .pie-contenido{
